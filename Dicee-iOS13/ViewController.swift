@@ -42,6 +42,9 @@ class ViewController: UIViewController {
         //print("left dice number at END is: \(leftDiceNumber)")
         //print("right dice number at END is: \(rightDiceNumber)")
         print(Int.random(in: 1...10))
+        print(Float.random(in: 1..<4))
+        print(Bool.random())
+        print(Int.random(in: 1..<4))
         
         
         /* <= IF THIS COMMENT IS REMOVED THE CODE WILL REVERT AND SHOW HOW THE ACTUAL CODE LOOKS LIKE FOR THE IMAGES
